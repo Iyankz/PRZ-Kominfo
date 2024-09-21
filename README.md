@@ -1,6 +1,6 @@
-# PPZ-Kominfo
+# RPZ-Kominfo
 
-Sync PRZ Kominfo
+Sync RPZ Kominfo
 
 1. Lakukan pengisian form data pada link berikut http://bit.ly/FormKoneksiRPZ agar di allow kominfo.
 2. Install Debian12 (Bullseye)
