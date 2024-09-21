@@ -33,7 +33,7 @@ mv /etc/bind/named.conf.options /etc/bind/named.conf.options.bak
 echo "----------------------------------------------------"
 echo "download named.conf.default-zones"
 echo "----------------------------------------------------"
-wget --no-check-certificate https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/main/named.conf.default-zones -P /etc/bind/
+wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/PRZ-Kominfo/refs/heads/main/named.conf.default-zones -P /etc/bind/
 
 echo "----------------------------------------------------"
 echo "download named.conf.options"
