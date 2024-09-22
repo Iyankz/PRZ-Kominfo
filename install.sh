@@ -41,16 +41,6 @@ echo "----------------------------------------------------"
 wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/RPZ-Kominfo/refs/heads/main/named.conf.options -P /etc/bind/
 
 echo "----------------------------------------------------"
-echo "tambahkan IP Public"
-echo "----------------------------------------------------"
-read -p "Masukan Blok IP Anda, misal 103.180.198.0: " ipaddress
-
-echo "----------------------------------------------------"
-echo "update IP Public"
-echo "----------------------------------------------------"
-sed -i 's/103.180.198.0/'$ipaddress'/g' /etc/bind/named.conf.options
-
-echo "----------------------------------------------------"
 echo "Restart bind9"
 echo "----------------------------------------------------"
 systemctl restart bind9
