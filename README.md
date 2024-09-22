@@ -6,7 +6,7 @@ Sync RPZ Kominfo
 2. Install Debian12 (Bullseye)
 3. Copy Paste Kode di bawah
 ##
-    wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/PRZ-Kominfo/refs/heads/main/install.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/RPZ-Kominfo/refs/heads/main/install.sh
 ##
     chmod +x install.sh
 ##
