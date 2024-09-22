@@ -3,7 +3,7 @@
 Sync RPZ Kominfo
 
 1. Lakukan pengisian form data pada link berikut http://bit.ly/FormKoneksiRPZ agar di allow kominfo.
-2. Install Debian12 (Bullseye) / Ubuntu 22.04
+2. Install Debian12 (BookWorm) / Ubuntu 22.04 (jammy Jellyfish)
 3. Copy Paste Kode di bawah (Pastikan sudah di privilege root)
 ##
     wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/RPZ-Kominfo/refs/heads/main/install.sh
