@@ -10,7 +10,7 @@ Sync RPZ Kominfo
 ##
     chmod +x install.sh
 ##
-    sh install.sh
+    ./install.sh
 4. Jika ingin merubah IP mana saja yang di Allow reqest DNS bisa edit file named.conf.optins pada bagian 0.0.0.0/0 (Secara Default Semua IP di allow)
 ##
     nano /etc/bind/named.conf.options
